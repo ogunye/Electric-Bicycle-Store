@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{F981063B-F24E-46F4-8A10-2184D0CBF5E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GateWay", "GateWay", "{D5E29C36-1E26-4C0B-A006-66331066429C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{D3C58D41-FCE3-4F35-8393-38EEFB83ED35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Payments", "Payments", "{FC262248-98F6-42EF-B6C9-59208A7C103E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{3757F07E-4582-457C-AB75-F78B5A2D7A7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Electric-Bicycle-Store.Web", "Electric-Bicycle-Store.Web\Electric-Bicycle-Store.Web.csproj", "{DFFDDEA3-5465-4F36-A9A7-7704A8D3D021}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Electric-Bicycle-Store.ProductAPI", "Electric-Bicycle-Store.ProductAPI\Electric-Bicycle-Store.ProductAPI.csproj", "{0CDC6E02-6648-41AA-8237-036755311753}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFFDDEA3-5465-4F36-A9A7-7704A8D3D021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFFDDEA3-5465-4F36-A9A7-7704A8D3D021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFFDDEA3-5465-4F36-A9A7-7704A8D3D021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFFDDEA3-5465-4F36-A9A7-7704A8D3D021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CDC6E02-6648-41AA-8237-036755311753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CDC6E02-6648-41AA-8237-036755311753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CDC6E02-6648-41AA-8237-036755311753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CDC6E02-6648-41AA-8237-036755311753}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DFFDDEA3-5465-4F36-A9A7-7704A8D3D021} = {F981063B-F24E-46F4-8A10-2184D0CBF5E6}
+		{0CDC6E02-6648-41AA-8237-036755311753} = {3757F07E-4582-457C-AB75-F78B5A2D7A7E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F565DA47-F781-45E4-8E37-378377B48EC5}
+	EndGlobalSection
+EndGlobal
