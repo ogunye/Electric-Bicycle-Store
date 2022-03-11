@@ -19,4 +19,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.3.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\v1\" />
+    <Folder Include="Models\DataTransferObjects\" />
+  </ItemGroup>
+
 </Project>
