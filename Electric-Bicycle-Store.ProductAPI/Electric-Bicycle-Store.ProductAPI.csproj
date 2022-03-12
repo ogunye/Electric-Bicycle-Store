@@ -21,7 +21,8 @@
 
   <ItemGroup>
     <Folder Include="Controllers\v1\" />
-    <Folder Include="Models\DataTransferObjects\" />
+    <Folder Include="IRepository\" />
+    <Folder Include="Repository\" />
   </ItemGroup>
 
 </Project>
